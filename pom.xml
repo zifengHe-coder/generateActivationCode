@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.idaben.com</groupId>
-    <artifactId>demo</artifactId>
+    <artifactId>generateKey</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>generateKey</name>
     <description>create activation code project</description>
