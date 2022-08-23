@@ -77,7 +77,7 @@ public class GenerateKey implements ApplicationListener<ApplicationReadyEvent> {
         System.out.println("请输入密钥使用次数");
         input = new Scanner(System.in);
         String number = input.next();
-        String keyFormatter = "Company:%s&%s&&Daoben&&&%s";
+        String keyFormatter = "Company:%s&%s#Daoben@%s";
         String key = AESEncode(encodeRules, String.format(keyFormatter, companyName, endDate, number));
         try {
             LocalDate.parse(endDate);
